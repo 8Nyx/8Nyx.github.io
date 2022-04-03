@@ -1,0 +1,166 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+* {
+    font-family: "Rubik" , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+html::-webkit-scrollbar{
+  width: 0.5rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: #0d0d0d;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: white;
+}
+
+body{
+    background-color: #0d0d0d;
+}
+
+/* Main section */
+.pfp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    margin-top: 30px;
+    width: 25%;
+    height: 80%; 
+}
+
+
+.name{
+    text-align: center;
+    color: #fff;
+    
+}
+
+.quotes {
+    color: darkgrey;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+section {
+    padding: 100px 200px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 2.2em;
+}
+
+
+ /* About section */
+  .about {
+    width: 100%;
+    max-height: 100vh;
+}
+
+.about p {
+    color: darkgray;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/* My Projects section */
+
+.projects p {
+  color: darkgray;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* social section */
+
+.social-container {
+    text-align: center;
+}
+.social-icons {
+    padding: 0;
+    list-style: none;
+    margin: 1em;
+}
+.social-icons li {
+    display: inline-block;
+    margin: 0.15em;
+    position: relative;
+    font-size: 1.2em;
+}
+.social-icons i {
+    color: #fff;
+    position: absolute;
+    top: 21px;
+    left: 21px;
+    
+}
+.social-icons a {
+    display: inline-block;
+}
+.social-icons a:before {
+    content: " ";
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: block;
+    background: linear-gradient(60deg, #fff, #000);
+    transition: all 265ms ease-out;
+}
+.social-icons a:hover:before {
+    transform: scale(0);
+    transition: all 250ms ease-in;
+}
+
+/* footer section */
+ 
+  .footer-title {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+  }
+
+  .Designed {
+      font-size: 1.1em;
+      text-align: center;
+      color: white;
+
+  }
+
+  .Designed span {
+    color: darkgray;
+  }
+  
+  .Designed span a { 
+	text-decoration: none;
+  }
+  
+  .Designed span a:hover {
+	  color: #fff ;
+  }
+
+  .discord {
+    font-size: 1.1em;
+    text-align: center;
+    color: #fff;
+  }
+
+  .discord {
+    color: #5865F2;
+  }
